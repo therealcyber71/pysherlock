@@ -3,8 +3,9 @@ import time
 import wikipedia
 from bs4 import BeautifulSoup
 import qrcode
+from spotfy2py import Spotify
 
-def web_ss(website):
+def web_ss(website:str):
     BASE = 'https://render-tron.appspot.com/screenshot/'
     url = website
     path = 'screenshot.jpg'
@@ -17,10 +18,10 @@ def web_ss(website):
     
     print("Image saved as screenshot.jpg!")
 
-def wiki(topic):
+def wiki(topic:str):
     print(wikipedia.summary(topic))
 
-def weather(city):
+def weather(city:str):
     url = "https://www.google.com/search?q="+"weather"+city
     html = requests.get(url).content
      
@@ -60,3 +61,10 @@ def qrgen(data):
     type(img)  # qrcode.image.pil.PilImage
     img.save("qrcode.png")
         
+ def playonSpotify(topic:str, play_track: bool ):
+    access_token = get("https://open.spotify.com/get_access_token").json()["accessToken"]
+    track_url = Spotify(access_token).get_track(topic)["track_url"]
+    if play_track: 
+        web.open(track_url)
+    else: 
+        return track_url
