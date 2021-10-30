@@ -4,6 +4,7 @@ import wikipedia
 from bs4 import BeautifulSoup
 import qrcode
 from spotify2py import Spotify
+import webbrowser as web
 
 def web_ss(website:str):
     BASE = 'https://render-tron.appspot.com/screenshot/'
