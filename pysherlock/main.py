@@ -3,7 +3,7 @@ import time
 import wikipedia
 from bs4 import BeautifulSoup
 import qrcode
-from spotfy2py import Spotify
+from spotify2py import Spotify
 
 def web_ss(website:str):
     BASE = 'https://render-tron.appspot.com/screenshot/'
