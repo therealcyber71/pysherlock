@@ -48,3 +48,8 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Roadmap
+
+1. Translator feature
+
