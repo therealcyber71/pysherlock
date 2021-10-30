@@ -1,6 +1,6 @@
 # pysherlock
 
-pysherlock is a Python library for dealing with web scraping using images, it's a Python application of the rendertron headless browser API originally written in JavaScript
+pysherlock is a Python library for dealing with web scraping using images, it's a Python application of the rendertron headless browser API originally written in JavaScript, it also has a lot of other features.
 
 [GitHub repo link to RenderTron](https://github.com/GoogleChrome/rendertron)
 ## Installation
