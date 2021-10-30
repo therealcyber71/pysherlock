@@ -16,9 +16,9 @@ setuptools.setup(
     author_email='quantechlxxi.corp@gmail.com',
     url='https://github.com/Sachit71/rudra', 
     project_urls = {                                # Optional
-        "Headless Chrome": "https://github.com/Sachit71/rudra/issues"
+        "Headless Chrome": "https://github.com/Sachit71/pysherlock/issues"
     },
-    install_requires=['requests','time'],                  # list all packages that your package uses
+    install_requires=['requests','qrcode','wikipedia','beautifulsoup4'],                  # list all packages that your package uses
     keywords=["pypi", "headless chrome", "chrome", "rendertron"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
@@ -31,4 +31,4 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/Sachit71/rudra/archive/refs/tags/chrome.tar.gz",
+    download_url="https://github.com/Sachit71/pysherlock/archive/refs/tags/hacktober.tar.gz",
