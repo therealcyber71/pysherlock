@@ -53,3 +53,6 @@ Please make sure to update tests as appropriate.
 
 1. Translator feature
 
+### Issues and Suggestions
+Open an issue or Join or Discord server https://discord.gg/mY4CYkMmNm
+
