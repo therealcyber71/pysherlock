@@ -14,12 +14,12 @@ setuptools.setup(
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='Sachit Ramesh',
     author_email='quantechlxxi.corp@gmail.com',
-    url='https://github.com/Sachit71/rudra', 
+    url='https://github.com/Sachit71/pysherlock', 
     project_urls = {                                # Optional
         "Headless Chrome": "https://github.com/Sachit71/pysherlock/issues"
     },
     install_requires=['requests','qrcode','wikipedia','beautifulsoup4'],                  # list all packages that your package uses
-    keywords=["pypi", "headless chrome", "chrome", "rendertron"], #descriptive meta-data
+    keywords=["pypi", "headless chrome", "chrome", "rendertron","spotify2py"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
