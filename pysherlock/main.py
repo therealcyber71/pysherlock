@@ -62,7 +62,7 @@ def qrgen(data):
     img.save("qrcode.png")
         
  def playonSpotify(topic:str, play_track: bool ):
-    access_token = get("https://open.spotify.com/get_access_token").json()["accessToken"]
+    access_token = requests.get("https://open.spotify.com/get_access_token").json()["accessToken"]
     track_url = Spotify(access_token).get_track(topic)["track_url"]
     if play_track: 
         web.open(track_url)
